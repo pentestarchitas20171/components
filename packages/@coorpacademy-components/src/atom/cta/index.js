@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import getOr from 'lodash/fp/getOr';
 import Link from '../link';
-import shallowCompare from '../../util/shallow-compare';
 import style from './style.css';
 
 class CTA extends React.Component {
@@ -13,10 +12,6 @@ class CTA extends React.Component {
     };
     this.handleMouseEnter = this.handleMouseEnter.bind(this);
     this.handleMouseLeave = this.handleMouseLeave.bind(this);
-  }
-
-  shouldComponentUpdate(nextProps, nextState, nextContext) {
-    return shallowCompare(this, nextProps, nextState, nextContext);
   }
 
   handleMouseEnter() {
@@ -32,7 +27,7 @@ class CTA extends React.Component {
   }
 
   render() {
-    const {translate, skin} = this.context;
+    const {skin} = this.context;
     const {
       submitValue = 'submit',
       name: ctaName,
@@ -57,7 +52,8 @@ class CTA extends React.Component {
     const hoverBorderColor = secondary ? textColor : secondaryColor;
 
     return (
-      <div className={style.button}
+      <div
+        className={style.button}
         data-name={ctaName}
         onMouseEnter={this.handleMouseEnter}
         onMouseLeave={this.handleMouseLeave}
@@ -83,8 +79,7 @@ class CTA extends React.Component {
 }
 
 CTA.contextTypes = {
-  skin: PropTypes.object,
-  translate: PropTypes.func
+  skin: PropTypes.object
 };
 
 CTA.propTypes = {

@@ -4,7 +4,6 @@ import get from 'lodash/fp/get';
 import getOr from 'lodash/fp/getOr';
 import isEmpty from 'lodash/fp/isEmpty';
 import isNil from 'lodash/fp/isNil';
-import map from 'lodash/fp/map';
 import CenteredText from '../../atom/centered-text';
 import Spinner from '../../atom/spinner';
 import CatalogCard from '../../molecule/catalog-card';
@@ -51,9 +50,7 @@ CatalogCards.contextTypes = {
 };
 
 CatalogCards.propTypes = {
-  products: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.object),
-    PropTypes.null
-  ])
+  products: PropTypes.arrayOf(PropTypes.object)
 };
+
 export default CatalogCards;

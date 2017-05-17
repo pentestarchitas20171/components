@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import identity from 'lodash/fp/identity';
 import getOr from 'lodash/fp/getOr';
 import {hoverFill} from '../../atom/button/hover-fill.css';
 import style from './style.css';
@@ -8,23 +7,20 @@ import style from './style.css';
 const DisciplineCTA = (props, context) => {
   const {skin} = context;
 
-  const {
-    startLabel,
-    buyLabel,
-    start,
-    buy
-  } = props;
+  const {startLabel, buyLabel, start, buy} = props;
 
   const startLearning = (
     <span
-      dangerouslySetInnerHTML={{ // eslint-disable-line react/no-danger
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{
         __html: startLabel
       }}
     />
   );
   const premium = (
     <span
-      dangerouslySetInnerHTML={{ // eslint-disable-line react/no-danger
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{
         __html: buyLabel
       }}
     />
@@ -32,7 +28,8 @@ const DisciplineCTA = (props, context) => {
 
   const startColor = getOr('#f0f', 'common.primary', skin);
 
-  const startButton = start && (
+  const startButton =
+    start &&
     <a
       className={`${style.start} ${hoverFill}`}
       onClick={start}
@@ -41,17 +38,13 @@ const DisciplineCTA = (props, context) => {
       }}
     >
       {startLearning}
-    </a>
-  );
+    </a>;
 
-  const buyButton = buy && (
-    <a
-      className={`${style.buy} ${hoverFill}`}
-      onClick={buy}
-    >
+  const buyButton =
+    buy &&
+    <a className={`${style.buy} ${hoverFill}`} onClick={buy}>
       {premium}
-    </a>
-  );
+    </a>;
 
   return (
     <div className={style.head}>

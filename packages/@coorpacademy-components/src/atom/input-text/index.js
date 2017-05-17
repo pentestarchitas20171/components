@@ -19,14 +19,16 @@ const InputText = props => {
 
   const title = `${props.title}${required ? '*' : ''} :`;
   const handleChange = e => onChange(e.target.value);
+  const className = getClassState(style.default, style.modified, style.error, modified, error);
 
   return (
-    <div className={getClassState(style, modified, error)}>
+    <div className={className}>
       <label>
         <span className={style.title}>{title}</span>
         <input
-          type='text'
+          type="text"
           name={title}
+          className={style.input}
           placeholder={placeholder}
           defaultValue={defaultValue}
           value={value}

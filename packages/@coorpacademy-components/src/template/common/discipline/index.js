@@ -1,14 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import DisciplineCTA from '../../../molecule/discipline-cta';
 import DisciplineHeader from '../../../molecule/discipline-header';
 import DisciplinePartners from '../../../molecule/discipline-partners';
 import DisciplineScope from '../../../molecule/discipline-scope';
-import layout from '../layout.css';
 import style from './style.css';
 
 const Discipline = (props, context) => {
-  const {translate} = context;
   const {
     selected = 0,
     level,
@@ -28,12 +25,7 @@ const Discipline = (props, context) => {
   return (
     <div className={style.wrapper}>
       <div className={style.header}>
-        <DisciplineHeader
-          image={image}
-          video={video}
-          title={title}
-          description={description}
-        />
+        <DisciplineHeader image={image} video={video} title={title} description={description} />
       </div>
       <div className={style.cta}>
         <DisciplineCTA
@@ -45,9 +37,7 @@ const Discipline = (props, context) => {
         />
       </div>
       <div className={style.partners}>
-        <DisciplinePartners
-          authors={authors}
-        />
+        <DisciplinePartners authors={authors} />
       </div>
       <div className={style.content}>
         <DisciplineScope
@@ -59,10 +49,6 @@ const Discipline = (props, context) => {
       </div>
     </div>
   );
-};
-
-Discipline.contextTypes = {
-  translate: PropTypes.func
 };
 
 Discipline.propTypes = {

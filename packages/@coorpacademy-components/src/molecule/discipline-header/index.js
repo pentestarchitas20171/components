@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import get from 'lodash/fp/get';
-import identity from 'lodash/fp/identity';
-import * as CustomPropTypes from '../../util/proptypes';
 import VideoIframe from '../video-iframe';
-import shallowCompare from '../../util/shallow-compare';
 import style from './style.css';
 
 class DisciplineHeader extends React.Component {
@@ -14,10 +11,6 @@ class DisciplineHeader extends React.Component {
       fullDisplay: false
     };
     this.handleToggleDisplay = this.handleToggleDisplay.bind(this);
-  }
-
-  shouldComponentUpdate(nextProps, nextState, nextContext) {
-    return shallowCompare(this, nextProps, nextState, nextContext);
   }
 
   handleToggleDisplay() {
@@ -37,13 +30,7 @@ class DisciplineHeader extends React.Component {
     return (
       <div className={style.wrapper}>
         <div className={style.imgWrapper}>
-          <VideoIframe
-            image={image}
-            type={type}
-            id={id}
-            width="380px"
-            height="250px"
-          />
+          <VideoIframe image={image} type={type} id={id} width="380px" height="250px" />
         </div>
         <div className={style.courseWrapper}>
           <div className={style.title}>
@@ -51,14 +38,13 @@ class DisciplineHeader extends React.Component {
           </div>
           <div className={this.state.fullDisplay ? style.desc : style.shortDesc}>
             <div
-              dangerouslySetInnerHTML={{ // eslint-disable-line react/no-danger
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{
                 __html: description
               }}
             />
           </div>
-          <div className={style.toggle}
-            onClick={this.handleToggleDisplay}
-          >
+          <div className={style.toggle} onClick={this.handleToggleDisplay}>
             {toggleLabel}
           </div>
         </div>

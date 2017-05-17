@@ -1,14 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import keys from 'lodash/fp/keys';
 import style from './style.css';
 
-const NotificationComponent = props => {
-  const {
-    type,
-    message
-  } = props;
+const notificationStyle = {
+  warning: style.warning,
+  error: style.error,
+  success: style.success
+};
 
-  const className = type ? style[type] : style.message;
+const NotificationComponent = props => {
+  const {type, message} = props;
+
+  const className = type ? notificationStyle[type] : style.message;
 
   return (
     <div className={className}>
@@ -18,7 +22,7 @@ const NotificationComponent = props => {
 };
 
 NotificationComponent.propTypes = {
-  type: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(keys(notificationStyle)).isRequired,
   message: PropTypes.string.isRequired
 };
 export default NotificationComponent;

@@ -8,6 +8,7 @@ import split from 'lodash/fp/split';
 import toPairs from 'lodash/fp/toPairs';
 import components from '../src/util/list-components';
 import fixtures from '../src/util/list-fixtures';
+import dependencies from '../src/util/list-dependencies';
 
 const targetDir = join(__dirname, '../storybook');
 const removeExt = path => join(dirname(path), basename(path, '.js'));
@@ -92,12 +93,18 @@ const _fixtureExports = [
   '};'
 ];
 
+const _dependenciesExports = `export const dependencies = ${JSON.stringify(dependencies, null, 2)};`;
+
 const file = _join('\n', [
+  '/* eslint-disable max-len */',
+  '',
   ..._componentImports,
   ..._fixtureImports,
   '',
   ..._componentExport,
   ..._fixtureExports,
+  '',
+  _dependenciesExports,
   ''
 ]);
 

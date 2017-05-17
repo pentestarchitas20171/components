@@ -8,21 +8,11 @@ const CursusList = (props, context) => {
   const {cursuses = []} = props;
   const listTitle = translate('Training Packages');
   const CursusesDiv = cursuses.map((cursus, index) => {
-    const {title, href, selected} = cursus;
-
-    const linkProps = selected ? {
-      className: style.selected
-    } : {};
+    const {title, href} = cursus;
 
     return (
-      <li
-        className={style.cursus}
-        key={index}
-      >
-        <Link
-          {...linkProps}
-          href={href}
-        >
+      <li className={style.cursus} key={index}>
+        <Link href={href}>
           {title}
         </Link>
       </li>

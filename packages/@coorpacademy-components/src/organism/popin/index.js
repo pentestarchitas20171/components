@@ -1,26 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import get from 'lodash/fp/get';
 import getOr from 'lodash/fp/getOr';
-import identity from 'lodash/fp/identity';
-import map from 'lodash/fp/map';
 import stopPropagation from '../../util/bubbling';
 import Button from '../../atom/button';
-import Link from '../../atom/link';
 import style from './style.css';
 
 const Popin = (props, context) => {
-  const {
-    skin
-  } = context;
+  const {skin} = context;
 
-  const {
-    ctaLabel,
-    ctaOnClick,
-    header,
-    closeOnClick,
-    content
-  } = props;
+  const {ctaLabel, ctaOnClick, header, closeOnClick, content} = props;
 
   function createMarkup() {
     return {__html: content};
@@ -29,25 +17,15 @@ const Popin = (props, context) => {
   const primary = getOr('#00B0FF', ['common', 'primary'], skin);
 
   return (
-    <div
-      className={style.default}
-      onClick={closeOnClick}
-    >
-      <div
-        className={style.popin}
-        onClick={stopPropagation}
-      >
-        <div
-          className={style.header}
-          onClick={closeOnClick}
-          data-name='popin-header'
-        >
+    <div className={style.default} onClick={closeOnClick}>
+      <div className={style.popin} onClick={stopPropagation}>
+        <div className={style.header} onClick={closeOnClick} data-name="popin-header">
           {header}
         </div>
         <div className={style.content}>
-          <div dangerouslySetInnerHTML={ // eslint-disable-line react/no-danger
-              createMarkup()
-            }
+          <div
+            dangerouslySetInnerHTML={// eslint-disable-line react/no-danger
+            createMarkup()}
           />
         </div>
         <Button

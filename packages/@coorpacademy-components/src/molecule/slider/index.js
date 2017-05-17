@@ -7,7 +7,7 @@ import Slide from '../../atom/slide';
 import style from './style.css';
 
 const map = _map.convert({cap: false});
-const Hammer = (typeof window !== 'undefined') ? require('hammerjs') : undefined;
+const Hammer = typeof window !== 'undefined' ? require('hammerjs') : undefined;
 
 class Slider extends React.Component {
   constructor(props) {
@@ -64,7 +64,7 @@ class Slider extends React.Component {
       const nextSlide = prevState.currentSlide - 1;
 
       return {
-        currentSlide: nextSlide < 0 ? (totalSlide - 1) : nextSlide
+        currentSlide: nextSlide < 0 ? totalSlide - 1 : nextSlide
       };
     });
 
@@ -80,9 +80,7 @@ class Slider extends React.Component {
   }
 
   render() {
-    const {
-      slides
-    } = this.props;
+    const {slides} = this.props;
 
     const totalSlide = slides.length;
 
@@ -90,9 +88,7 @@ class Slider extends React.Component {
       const isActive = this.state.currentSlide === index;
 
       return (
-        <div key={index}
-          className={isActive ? style.activeSlide : style.slide}
-        >
+        <div key={index} className={isActive ? style.activeSlide : style.slide}>
           <Slide {...slide} />
         </div>
       );
@@ -100,19 +96,21 @@ class Slider extends React.Component {
 
     const currentSlide = get(this.state.currentSlide, slides);
     const controlColor = getOr(false, 'light', currentSlide) ? '#FFF' : '#000';
-    const leftControl = totalSlide > 1 ? (
-      <span className={style.leftControl}
-        style={{color: controlColor}}
-        onClick={this.handlePreviousSlide}
-      />
-    ) : null;
+    const leftControl = totalSlide > 1
+      ? <span
+          className={style.leftControl}
+          style={{color: controlColor}}
+          onClick={this.handlePreviousSlide}
+        />
+      : null;
 
-    const rightControl = totalSlide > 1 ? (
-      <span className={style.rightControl}
-        style={{color: controlColor}}
-        onClick={this.handleNextSlide}
-      />
-    ) : null;
+    const rightControl = totalSlide > 1
+      ? <span
+          className={style.rightControl}
+          style={{color: controlColor}}
+          onClick={this.handleNextSlide}
+        />
+      : null;
 
     return (
       <div
@@ -128,15 +126,17 @@ class Slider extends React.Component {
 }
 
 Slider.propTypes = {
-  slides: PropTypes.arrayOf(PropTypes.shape({
-    cover: PropTypes.string,
-    title: PropTypes.string,
-    surtitle: PropTypes.string,
-    cta: PropTypes.shape({
-      href: PropTypes.url,
-      title: PropTypes.string
+  slides: PropTypes.arrayOf(
+    PropTypes.shape({
+      cover: PropTypes.string,
+      title: PropTypes.string,
+      surtitle: PropTypes.string,
+      cta: PropTypes.shape({
+        href: PropTypes.url,
+        title: PropTypes.string
+      })
     })
-  }))
+  )
 };
 
 export default Slider;

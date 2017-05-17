@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import isEqual from 'lodash/fp/isEqual';
-import shallowCompare from '../../util/shallow-compare';
 
 class Provider extends React.Component {
   constructor(props, context) {
@@ -22,10 +20,6 @@ class Provider extends React.Component {
       skin,
       translate
     });
-  }
-
-  shouldComponentUpdate(nextProps, nextState, nextContext) {
-    return shallowCompare(this, nextProps, nextState, nextContext);
   }
 
   render() {

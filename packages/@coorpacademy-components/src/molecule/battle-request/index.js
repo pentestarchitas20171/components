@@ -6,13 +6,7 @@ import style from './style.css';
 
 const BattleRequest = (props, context) => {
   const {translate, skin} = context;
-  const {
-    username,
-    discipline,
-    level,
-    avatar,
-    href
-  } = props;
+  const {username, discipline, level, avatar, href} = props;
 
   const primaryColor = getOr('#00B0FF', 'common.primary', skin);
 
@@ -20,7 +14,8 @@ const BattleRequest = (props, context) => {
   const startLabel = translate('Start battle');
 
   return (
-    <Link className={style.card}
+    <Link
+      className={style.card}
       style={{
         borderColor: primaryColor
       }}
@@ -38,7 +33,9 @@ const BattleRequest = (props, context) => {
           </span>
         </div>
         <div className={style.discipline}>
-          {discipline}
+          <div className={style.disciplineName}>
+            {discipline}
+          </div>
           <div className={style.level}>
             {level}
           </div>

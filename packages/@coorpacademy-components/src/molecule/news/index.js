@@ -5,30 +5,29 @@ import Link from '../../atom/link';
 import style from './style.css';
 
 const News = (props, context) => {
-  const {translate, skin} = context;
-  const {
-    image,
-    title,
-    date,
-    description,
-    authorLogo,
-    cta
-  } = props;
+  const {image, title, date, description, authorLogo, cta} = props;
 
   cta.secondary = true;
 
   return (
     <div className={style.news}>
       <div className={style.image}>
-        <img src={image} />
+        <Link href={cta.href} className={style.linkImage} target={cta.target}>
+          <img src={image} />
+        </Link>
       </div>
       <div className={style.infos}>
-        <div className={style.title}>
+        <Link href={cta.href} title={title} className={style.title} target={cta.target}>
           {title}
-        </div>
+        </Link>
         <div className={style.date}>{date}</div>
         <div className={style.description}>
-          {description}
+          <div
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: description
+            }}
+          />
         </div>
         <div className={style.bottom}>
           <div className={style.author}>
@@ -37,16 +36,9 @@ const News = (props, context) => {
           <Cta {...cta} />
         </div>
       </div>
-      <Link className={style.link}
-        href={cta.href}
-        target={cta.target}
-      />
+      <Link className={style.link} href={cta.href} target={cta.target} />
     </div>
   );
-};
-
-News.contextTypes = {
-  skin: PropTypes.object
 };
 
 News.propTypes = {
@@ -55,10 +47,7 @@ News.propTypes = {
   date: PropTypes.string,
   description: PropTypes.string,
   authorLogo: PropTypes.string,
-  cta: PropTypes.shape({
-    href: PropTypes.string,
-    target: PropTypes.oneOf(['_self', '_blank', '_parent', '_top'])
-  })
+  cta: Link.PropTypes
 };
 
 export default News;

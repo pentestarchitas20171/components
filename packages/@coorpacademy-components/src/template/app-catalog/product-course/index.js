@@ -5,7 +5,6 @@ import DisciplineHeader from '../../../molecule/discipline-header';
 import DisciplineScope from '../../../molecule/discipline-scope';
 import DisciplinePartners from '../../../molecule/discipline-partners';
 import CatalogCards from '../../../organism/catalog-cards';
-import layout from '../layout.css';
 import style from './style.css';
 
 const ProductCourse = (props, context) => {
@@ -31,12 +30,7 @@ const ProductCourse = (props, context) => {
   return (
     <div className={style.wrapper}>
       <div className={style.header}>
-        <DisciplineHeader
-          image={image}
-          video={video}
-          title={title}
-          description={description}
-        />
+        <DisciplineHeader image={image} video={video} title={title} description={description} />
       </div>
       <div className={style.cta}>
         <CatalogCTA
@@ -47,9 +41,7 @@ const ProductCourse = (props, context) => {
         />
       </div>
       <div className={style.partners}>
-        <DisciplinePartners
-          authors={authors}
-        />
+        <DisciplinePartners authors={authors} />
       </div>
       <div className={style.content}>
         <DisciplineScope
@@ -60,13 +52,11 @@ const ProductCourse = (props, context) => {
         />
       </div>
       <div className={style.related}>
-        <div className={layout.container}>
-          <span className={layout.cardsTitle}>
+        <div className={style.container}>
+          <span className={style.cardsTitle}>
             {cardsTitle}
           </span>
-          <CatalogCards
-            products={relatedDisciplines}
-          />
+          <CatalogCards products={relatedDisciplines} />
         </div>
       </div>
     </div>

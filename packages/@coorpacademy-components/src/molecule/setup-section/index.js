@@ -1,19 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import map from 'lodash/fp/map';
 import InputSwitch from '../../atom/input-switch';
 import style from './style.css';
 
 const SetupSection = (props, context) => {
-  const { translate } = context;
+  const {translate} = context;
 
-  const {
-    title,
-    onUp,
-    onDown,
-    display,
-    id
-  } = props;
+  const {title, onUp, onDown, display} = props;
 
   return (
     <div className={style.wrapper}>
@@ -25,12 +18,8 @@ const SetupSection = (props, context) => {
           {translate('Show')}
         </div>
         <InputSwitch {...display} />
-        <div className={onDown ? style.down : style.disabledDown}
-          onClick={onDown}
-        />
-        <div className={onUp ? style.up : style.disabledUp}
-          onClick={onUp}
-        />
+        <div className={onDown ? style.down : style.disabledDown} onClick={onDown} />
+        <div className={onUp ? style.up : style.disabledUp} onClick={onUp} />
       </div>
     </div>
   );
@@ -44,7 +33,6 @@ SetupSection.propTypes = {
   title: PropTypes.string.isRequired,
   onUp: PropTypes.func,
   onDown: PropTypes.func,
-  display: PropTypes.object,
-  id: PropTypes.string.isRequired
+  display: PropTypes.object
 };
 export default SetupSection;

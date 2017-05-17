@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import getOr from 'lodash/fp/getOr';
 import partial from 'lodash/fp/partial';
 import unary from 'lodash/fp/unary';
-import identity from 'lodash/fp/identity';
 import ModuleBubble from '../../molecule/module-bubble';
 import style from './style.css';
 
@@ -17,11 +16,7 @@ function DisciplineCard(props, context) {
   const mainStyle = {animationDuration};
 
   const modules = discipline.modules.map(_module => (
-    <ModuleBubble
-      module={_module}
-      onClick={onModuleClick}
-      key={_module.ref}
-    />
+    <ModuleBubble module={_module} onClick={onModuleClick} key={_module.ref} />
   ));
 
   const click = unary(partial(onClick, [discipline]));
@@ -31,22 +26,21 @@ function DisciplineCard(props, context) {
   const defaultColor = getOr('#f0f', 'common.primary', skin);
   const barColor = getOr('transparent', ['courses', discipline.courseNum], skin);
 
-  const mediaDiv = discipline.media ? (
-    <div className={style.coverWrapper}>
-      <img className={style.cover}
-        src={discipline.media}
-      />
-      <div className={style.gradient} />
-    </div>
-  ) : null;
+  const mediaDiv = discipline.media
+    ? <div className={style.coverWrapper}>
+        <img className={style.cover} src={discipline.media} />
+        <div className={style.gradient} />
+      </div>
+    : null;
 
-  const colorDiv = !discipline.media ? (
-    <div className={style.coverColorWrapper}
-      style={{
-        backgroundColor: defaultColor
-      }}
-    />
-  ) : null;
+  const colorDiv = !discipline.media
+    ? <div
+        className={style.coverColorWrapper}
+        style={{
+          backgroundColor: defaultColor
+        }}
+      />
+    : null;
   const bar = (
     <div
       className={style.bar}
@@ -57,18 +51,11 @@ function DisciplineCard(props, context) {
   );
 
   return (
-    <div
-      className={disciplineClass}
-      data-name='discipline-card'
-      style={mainStyle}
-    >
+    <div className={disciplineClass} data-name="discipline-card" style={mainStyle}>
       <div className={style.disciplineWrapper}>
         {colorDiv}
         {mediaDiv}
-        <div
-          className={style.textWrapper}
-          onClick={click}
-        >
+        <div className={style.textWrapper} onClick={click}>
           <div className={style.title}>
             {label}
           </div>

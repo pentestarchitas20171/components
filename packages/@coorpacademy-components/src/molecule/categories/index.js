@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import _find from 'lodash/fp/find';
-import noop from 'lodash/fp/noop';
 import getOr from 'lodash/fp/getOr';
-import map from 'lodash/fp/map';
 import Checkbox from '../../atom/checkbox';
 import Link from '../../atom/link';
 import style from './style.css';
@@ -12,19 +10,15 @@ const buildCategory = (category, index) => {
   const {href, selected} = category;
   const _name = getOr('', 'name', category);
 
-  const linkProps = selected ? {
-    className: style.selected
-  } : {};
+  const linkProps = selected
+    ? {
+        className: style.selected
+      }
+    : {};
 
   return (
-    <li
-      className={style.filter}
-      key={index}
-    >
-      <Link
-        {...linkProps}
-        href={href}
-      >
+    <li className={style.filter} key={index}>
+      <Link {...linkProps} href={href}>
         {_name}
       </Link>
     </li>
@@ -37,21 +31,17 @@ const Categories = (props, context) => {
   const filtersTitle = translate('filters');
 
   const CategoriesDiv = categories.map(buildCategory);
-  const selectedCategory = _find({
-    selected: true
-  }, categories) || {};
+  const selectedCategory = _find(
+    {
+      selected: true
+    },
+    categories
+  ) || {};
 
   return (
     <div className={style.categories}>
-      <Checkbox
-        checked
-        id='toggler'
-        className={style.mobileToggler}
-      />
-      <label
-        htmlFor='toggler'
-        className={style.togglerDisplay}
-      >
+      <Checkbox checked id="toggler" className={style.mobileToggler} />
+      <label htmlFor="toggler" className={style.togglerDisplay}>
         <span>{getOr('', 'name', selectedCategory)}</span>
       </label>
       <span className={style.arrow} />
