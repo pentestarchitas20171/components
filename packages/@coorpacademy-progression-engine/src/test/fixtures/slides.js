@@ -3,35 +3,8 @@ import {type Slide} from '../../types';
 
 const slides: Array<Slide> = [
   {
-    _id: '1.A1.1',
-    klf: "Le Knowledge Graph apporte en effet des compléments d'informations à une requête. Pour le moment, il se cantonne à des œuvres, des monuments, des personnages célèbres… Pour cela, vous obtenez des informations classiques mais aussi un carrousel comprenant des photos, des œuvres connexes et des lieux dans la même zone géographique...\n",
-    tips: "Certains spécialistes affirment que le Knowledge Graph diminuerait le trafic de Wikipédia… Et ce, alors que Google est l'un des principaux donateurs de Wikipédia.\n",
+    ref: '1.A1.1',
     chapter_id: '1.A1',
-    authors: [],
-    context: {
-      media: {
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    },
-    meta: {
-      updatedAt: '2017-05-11T15:21:54.071Z',
-      createdAt: '2017-05-11T15:21:54.071Z'
-    },
-    lessons: [
-      {
-        type: 'video',
-        poster: '//static.coorpacademy.com/content/digital/miniatures_cours/avance/1A1.png',
-        description: 'Le concept de Knowledge Graph',
-        mimeType: 'application/vimeo',
-        videoId: '89404998\n',
-        _id: '590b862e2e967f64333ad45f',
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    ],
     question: {
       type: 'qcm',
       header: "Qu'est-ce que le Knowledge Graph de Google ?",
@@ -95,35 +68,8 @@ const slides: Array<Slide> = [
     }
   },
   {
-    _id: '1.A1.2',
-    klf: "Le Knowledge Graph est donc un moyen de rassembler des informations clés autour d'un personnage célèbre par exemple. Mais aussi autour d'autres individus liés à celui-ci. En cela, il enrichit la recherche avec des éléments qui font sens.\n",
-    tips: "La serendipité, vous connaissez ? C'est de découvrir de nouvelles choses de façon inattendue. Un peu comme le Knowledge Graph, donc.\n",
+    ref: '1.A1.2',
     chapter_id: '1.A1',
-    authors: [],
-    context: {
-      media: {
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    },
-    meta: {
-      updatedAt: '2017-05-11T15:21:54.233Z',
-      createdAt: '2017-05-11T15:21:54.233Z'
-    },
-    lessons: [
-      {
-        type: 'video',
-        poster: '//static.coorpacademy.com/content/digital/miniatures_cours/avance/1A1.png',
-        description: 'Le concept de Knowledge Graph',
-        mimeType: 'application/vimeo',
-        videoId: '89404998\n',
-        _id: '590b862e2e967f64333ad464',
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    ],
     question: {
       type: 'qcmDrag',
       header: "Quels types d'éléments peut-on trouver dans la fenêtre relative au Knowledge Graph ?",
@@ -199,35 +145,8 @@ const slides: Array<Slide> = [
     }
   },
   {
-    _id: '1.A1.3',
-    klf: "En retenant l'internaute plus longtemps sur ses pages via le Knowledge Graph, Google monétise mieux ses publicités, tout en affichant plus de résultats provenant de son écosystème : maps, images…\n",
-    tips: "Le site le plus visité au monde en 2013, c'est… Google. (source Nielsen)\n",
+    ref: '1.A1.3',
     chapter_id: '1.A1',
-    authors: [],
-    context: {
-      media: {
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    },
-    meta: {
-      updatedAt: '2017-05-11T15:21:54.256Z',
-      createdAt: '2017-05-11T15:21:54.256Z'
-    },
-    lessons: [
-      {
-        type: 'video',
-        poster: '//static.coorpacademy.com/content/digital/miniatures_cours/avance/1A1.png',
-        description: 'Le concept de Knowledge Graph',
-        mimeType: 'application/vimeo',
-        videoId: '89404998\n',
-        _id: '590b862e2e967f64333ad46a',
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    ],
     question: {
       type: 'qcm',
       header: 'En enrichissant ses résultats, Google cherche aussi à…\n',
@@ -277,35 +196,8 @@ const slides: Array<Slide> = [
     }
   },
   {
-    _id: '1.A1.4',
-    klf: "Le Knowledge Graph vampirise 40% d'une page de résultats. Certes, toutes les requêtes ne sont pas concernées, mais si votre activité peut en profiter, vous avez là une merveilleuse vitrine !\n",
-    tips: 'Un conseil : cherchez un lien entre votre activité et le Knowledge Graph.\n',
+    ref: '1.A1.4',
     chapter_id: '1.A1',
-    authors: [],
-    context: {
-      media: {
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    },
-    meta: {
-      updatedAt: '2017-05-30T13:01:53.025Z',
-      createdAt: '2017-05-30T13:01:53.025Z'
-    },
-    lessons: [
-      {
-        type: 'video',
-        poster: '//static.coorpacademy.com/content/digital/miniatures_cours/avance/1A1.png',
-        description: 'Le concept de Knowledge Graph',
-        mimeType: 'application/vimeo',
-        videoId: '89404998\n',
-        _id: '590b862e2e967f64333ad46f',
-        subtitles: [],
-        posters: [],
-        src: []
-      }
-    ],
     question: {
       type: 'qcm',
       header: "Quelle proportion du volume d'une page de résultats occupe le Knowledge Graph ?",

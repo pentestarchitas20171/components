@@ -57,7 +57,7 @@ export type QCMQuestion = {
 export type Question = QCMQuestion;
 
 export type Slide = {
-  _id: string,
+  ref: string,
   chapter_id: string,
   question: Question
 };

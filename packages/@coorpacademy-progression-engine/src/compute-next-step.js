@@ -43,7 +43,7 @@ export default function computeNextStep(
     };
   }
 
-  const remainingSlides = without(slides, map('_id', slidePool));
+  const remainingSlides = without(slides, map('ref', slidePool));
   const nextSlide = sample(remainingSlides);
 
   // with next slide return content object
