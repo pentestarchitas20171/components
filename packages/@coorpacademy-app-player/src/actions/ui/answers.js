@@ -2,6 +2,7 @@ import remove from 'lodash/fp/remove';
 import includes from 'lodash/fp/includes';
 import {createAnswer} from '../api/progressions';
 import {fetchAnswer} from '../api/answers';
+import {fetchRecommandations} from '../api/recommandations';
 
 export const ANSWER_EDIT = {
   qcm: '@@answer/EDIT_QCM',
@@ -45,5 +46,11 @@ export const validateAnswer = (progressionId, body) => async (dispatch, getState
 
   const slideId = createAnswerResponse.payload.state.content.ref;
   const fetchAnswerResponse = await dispatch(fetchAnswer(progressionId, slideId));
+
+  console.log('ANSWERFETCHED::::::::::::::', createAnswerResponse, fetchAnswerResponse);
+
+  // if there OR fetchRecommandations should be self aware
+  const recommendations = await dispatch(fetchRecommandations());
+
   return fetchAnswerResponse;
 };
