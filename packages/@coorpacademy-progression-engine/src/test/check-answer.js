@@ -9,7 +9,6 @@ const engine: Engine = {
   version: 'latest'
 };
 
-// eslint-disable-next-line flowtype/no-weak-types
 function checkBothMethods(t: any, expected: boolean, question: Question, givenAnswer: Answer) {
   t.is(checkAnswerCorrectness(engine, question, givenAnswer).isCorrect, expected);
   t.is(checkAnswer(engine, question, givenAnswer), expected);

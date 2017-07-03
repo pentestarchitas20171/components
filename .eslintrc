@@ -79,6 +79,15 @@
       "rules": {
         "no-console": "off"
       }
+    },
+    {
+      // Test files
+      "files": [
+        "packages/**/test/**/*.js"
+      ],
+      "rules": {
+        "flowtype/no-weak-types": "off"
+      }
     }
   ]
 }

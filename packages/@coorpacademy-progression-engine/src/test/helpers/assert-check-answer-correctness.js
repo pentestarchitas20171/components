@@ -3,7 +3,6 @@ import {map, pipe, zip} from 'lodash/fp';
 import checkAnswerCorrectness from '../../check-answer-correctness';
 import type {Question, Answer, Engine} from '../../types';
 
-// eslint-disable-next-line flowtype/no-weak-types
 function assertCorrect(t: any, engine: Engine, question: Question, givenAnswer: Answer) {
   const result = checkAnswerCorrectness(engine, question, givenAnswer);
   t.true(result.isCorrect, 'Answer should have been considered as correct');
@@ -15,7 +14,7 @@ function assertCorrect(t: any, engine: Engine, question: Question, givenAnswer: 
 }
 
 function assertIncorrect(
-  t: any, // eslint-disable-line flowtype/no-weak-types
+  t: any,
   engine: Engine,
   question: Question,
   givenAnswer: Answer,
