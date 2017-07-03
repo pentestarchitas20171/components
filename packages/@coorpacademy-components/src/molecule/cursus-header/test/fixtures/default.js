@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-
 export default {
   props: {
     title: 'Innovations & Technologies',

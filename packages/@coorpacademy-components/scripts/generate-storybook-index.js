@@ -96,7 +96,6 @@ const _fixtureExports = [
 const _dependenciesExports = `export const dependencies = ${JSON.stringify(dependencies, null, 2)};`;
 
 const file = _join('\n', [
-  '/* eslint-disable max-len */',
   '',
   ..._componentImports,
   ..._fixtureImports,
@@ -112,4 +111,3 @@ if (!module.parent)
   process.stdout.write(file);
 
 export default file;
-

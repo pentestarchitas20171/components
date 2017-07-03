@@ -11,8 +11,6 @@ const {authors} = disciplinePartners.props;
 const {content, levels} = disciplineScope.props;
 const {products} = catalogCards.props;
 
-/* eslint-disable max-len */
-
 export default {
   props: {
     selected: 2,

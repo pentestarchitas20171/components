@@ -72,6 +72,7 @@
   },
   "overrides": [
     {
+      // Fixtures
       "files": [
         "packages/@coorpacademy-components/src/**/test/fixtures/*.js"
       ],

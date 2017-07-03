@@ -11,8 +11,6 @@ const {assets} = catalogAssets.props;
 const {rating, maxRating, linkBuy, linkTry} = catalogCTA.props;
 const {products} = catalogCards.props;
 
-/* eslint-disable max-len */
-
 export default {
   props: {
     title,

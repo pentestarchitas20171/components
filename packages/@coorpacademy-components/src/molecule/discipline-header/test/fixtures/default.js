@@ -2,8 +2,6 @@ import video from '../../../video-iframe/test/fixtures/default';
 
 const {type, id} = video.props;
 
-/* eslint-disable max-len */
-
 export default {
   props: {
     title: 'Les nouveaux business',

@@ -5,8 +5,6 @@ import catalogCards from '../../../../../organism/catalog-cards/test/fixtures/de
 const {title, image} = disciplineHeader.props;
 const {products} = catalogCards.props;
 
-/* eslint-disable max-len */
-
 export default {
   props: {
     title,

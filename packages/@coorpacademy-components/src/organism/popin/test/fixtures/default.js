@@ -5,7 +5,6 @@ export default {
     },
     href: '#',
     header: 'skip intro',
-    /* eslint-disable max-len */
     content: `<h1>Welcome!</h1>
         Welcome to this e-training on mental health and human rights! This training is part of the World Health Organization’s initiative called QualityRights. The e-training - what it covers and who it is for - is described in the video below. <br />
         <br />
@@ -28,6 +27,5 @@ export default {
         To close this page (if it is your first visit on the e-training), click on the cross in the upper right corner of the screen!</h2><br />
         <img src="https://static.coorpacademy.com/content/qualityrights/img/QR_logo_small.png" />
     `
-    /* eslint-enable max-len */
   }
 };
