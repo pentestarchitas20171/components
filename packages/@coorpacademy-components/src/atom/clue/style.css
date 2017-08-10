@@ -24,13 +24,14 @@
 .clue {
   background: brand;
   border: 10px solid white;
-  padding: 32px;
+  padding: 72px 40px 56px;
   text-align: center;
   width: 427px;
-  height: 219px;
+  height: auto;
   display: flex;
   align-items: center;
   position: relative;
+  font-size: 23px;
   transition: background-color 0.3s ease-out;
 }
 
@@ -68,5 +69,6 @@
 
   .clue {
     width: 70%;
+    font-size: 18px;
   }
 }
