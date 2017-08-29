@@ -1,3 +1,571 @@
+{ Atom: 
+   { Button: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/button',
+     CatalogSection: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/catalog-section',
+     CenteredText: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/centered-text',
+     Checkbox: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/checkbox',
+     Clue: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/clue',
+     Cta: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/cta',
+     ImageUpload: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/image-upload',
+     InputCheckbox: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-checkbox',
+     InputColor: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-color',
+     InputDoublestep: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-doublestep',
+     InputReadonly: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-readonly',
+     InputSwitch: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-switch',
+     InputText: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-text',
+     InputTextarea: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-textarea',
+     Label: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/label',
+     Life: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/life',
+     Link: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/link',
+     Loader: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/loader',
+     Notification: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/notification',
+     PictureBackground: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/picture-background',
+     Picture: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/picture',
+     PromoCode: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/promo-code',
+     Provider: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/provider',
+     Range: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/range',
+     ResourceMiniature: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/resource-miniature',
+     Select: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/select',
+     Slide: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/slide',
+     SocialLink: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/social-link',
+     Spinner: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/spinner',
+     TabContent: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/tab-content',
+     Tab: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/tab',
+     Title: '/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/title' } }
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/button Button
+[ { props: 
+     { type: 'a',
+       href: '/plop',
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { background: '#00b0ff',
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { centered: true,
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { className: 'foo',
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { type: 'button',
+       submitValue: 'Clear filters',
+       onClick: [Function: onClick] } },
+  { props: 
+     { background: '#1d1d1d',
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: { submitValue: 'Foo', onClick: [Function: onClick] } },
+  { props: 
+     { disabled: true,
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { background: '#CFD8DC',
+       color: '#717171',
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { type: 'link',
+       href: '/plop',
+       submitValue: 'Foo',
+       onClick: [Function: onClick] } },
+  { props: 
+     { type: 'button',
+       submitValue: 'Test Connection',
+       color: '#FFFFFF',
+       onClick: [Function: onClick] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/catalog-section CatalogSection
+[ { props: { title: 'Picture' },
+    children: 
+     { '$$typeof': Symbol(react.element),
+       type: 'ul',
+       key: null,
+       ref: null,
+       props: [Object],
+       _owner: null,
+       _store: {} } },
+  { props: { title: 'Picture' },
+    children: 
+     { '$$typeof': Symbol(react.element),
+       type: [Object],
+       key: null,
+       ref: null,
+       props: [Object],
+       _owner: null,
+       _store: {} } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/centered-text CenteredText
+[ { children: 
+     { '$$typeof': Symbol(react.element),
+       type: 'p',
+       key: null,
+       ref: null,
+       props: [Object],
+       _owner: null,
+       _store: {} } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/checkbox Checkbox
+[ { props: 
+     { checked: true,
+       type: 'checkbox',
+       title: 'OK',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'checkbox',
+       title: 'OK',
+       checked: false,
+       onChange: [Function: onChange] } },
+  { props: 
+     { disabled: true,
+       type: 'checkbox',
+       title: 'OK',
+       checked: false,
+       onChange: [Function: onChange] } },
+  { props: 
+     { required: true,
+       type: 'checkbox',
+       title: 'OK',
+       checked: false,
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/clue Clue
+[ { props: 
+     { text: 'Presque le nom de code de James Bond. Presque le nom de code de James Bond.',
+       starsDiff: 1 } },
+  { props: { text: null } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/cta Cta
+[ { props: 
+     { submitValue: 'Coorpacademy',
+       href: '#',
+       target: '_self',
+       small: true,
+       light: true } },
+  { props: 
+     { submitValue: 'Coorpacademy',
+       href: '#',
+       target: '_self',
+       light: true } },
+  { props: 
+     { submitValue: 'Coorpacademy',
+       href: '#',
+       target: '_self',
+       small: true } },
+  { props: { submitValue: 'Coorpacademy', href: '#', target: '_self' } },
+  { props: 
+     { submitValue: 'Coorpacademy',
+       href: '#',
+       target: '_self',
+       small: true,
+       secondary: true } },
+  { props: 
+     { submitValue: 'Coorpacademy',
+       href: '#',
+       target: '_self',
+       secondary: true } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/image-upload ImageUpload
+[ { props: 
+     { title: 'Desktop (*)',
+       uploadLabel: 'Upload',
+       previewLabel: 'Preview',
+       onChange: [Function: onChange],
+       previewImage: 'https://static.coorpacademy.com/content/up/raw/logo_coorp-1491560495763.svg' } },
+  { props: 
+     { title: 'Email (*)',
+       uploadLabel: 'Upload',
+       previewLabel: 'Preview',
+       onChange: [Function: onChange],
+       previewImage: 'https://static.coorpacademy.com/content/up/raw/logo_coorp_mail-1491561014878.svg' } },
+  { props: 
+     { title: 'Desktop (*)',
+       uploadLabel: 'Upload',
+       previewLabel: 'Preview',
+       onChange: [Function: onChange],
+       loading: true } },
+  { props: 
+     { title: 'Mobile (*)',
+       uploadLabel: 'Upload',
+       previewLabel: 'Preview',
+       onChange: [Function: onChange],
+       previewImage: 'https://static.coorpacademy.com/content/up/raw/logo_mobile-1491560713685.svg' } },
+  { props: 
+     { title: 'Desktop (*)',
+       uploadLabel: 'Upload',
+       previewLabel: 'Preview',
+       onChange: [Function: onChange],
+       previewImage: 'https://static.coorpacademy.com/content/up/raw/logo_coorp-1491560495763.svg',
+       modified: true } },
+  { props: 
+     { title: 'Desktop (*)',
+       uploadLabel: 'Upload',
+       onChange: [Function: onChange],
+       previewImage: 'https://static.coorpacademy.com/content/up/raw/logo_coorp-1491560495763.svg' } },
+  { props: 
+     { title: 'Desktop (*)',
+       uploadLabel: 'Upload',
+       previewLabel: 'Preview',
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-checkbox InputCheckbox
+[ { props: 
+     { checked: true,
+       type: 'checkbox',
+       title: 'OK',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'checkbox',
+       title: 'OK',
+       checked: false,
+       onChange: [Function: onChange] } },
+  { props: 
+     { disabled: true,
+       type: 'checkbox',
+       title: 'OK',
+       checked: false,
+       onChange: [Function: onChange] } },
+  { props: 
+     { error: true,
+       checked: false,
+       type: 'checkbox',
+       title: 'OK',
+       onChange: [Function: onChange] } },
+  { props: 
+     { modified: true,
+       checked: true,
+       type: 'checkbox',
+       title: 'OK',
+       onChange: [Function: onChange] } },
+  { props: 
+     { required: true,
+       type: 'checkbox',
+       title: 'OK',
+       checked: false,
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-color InputColor
+[ { props: 
+     { type: 'color',
+       title: 'Color',
+       placeholder: '#FFFFFF',
+       value: '#0088F7',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'color',
+       title: 'Color',
+       placeholder: '#FFFFFF',
+       value: '',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'color',
+       title: 'Color',
+       placeholder: '#FFFFFF',
+       value: '',
+       error: 'Error\'s message',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'color',
+       title: 'Color',
+       placeholder: '#FFFFFF',
+       value: '#CC88F7',
+       modified: true,
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-doublestep InputDoublestep
+[ { props: 
+     { title: 'Confirm',
+       type: 'doublestep',
+       toggleValue: 'Delete Platform',
+       cancelValue: 'Cancel',
+       description: 'Are you sure you want to delete your platform? Deleting your platform is irreversible!',
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-readonly InputReadonly
+[ { props: 
+     { title: 'Domain name',
+       value: 'samsung.coorpacademy.com',
+       type: 'readonly' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-switch InputSwitch
+[ { props: 
+     { type: 'switch',
+       title: 'Name',
+       value: true,
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'switch',
+       title: 'Name',
+       value: true,
+       onChange: [Function: onChange],
+       disabled: true } },
+  { props: 
+     { type: 'switch',
+       title: 'Name',
+       value: false,
+       modified: true,
+       onChange: [Function: onChange] } },
+  { props: { type: 'switch', value: true, onChange: [Function: onChange] } },
+  { props: 
+     { type: 'switch',
+       title: 'Name',
+       value: true,
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'switch',
+       title: 'Name',
+       value: false,
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-text InputText
+[ { props: 
+     { type: 'text',
+       title: 'Name',
+       placeholder: 'Your name',
+       value: 'Foo',
+       onChange: [Function: onChange] } },
+  { props: 
+     { disabled: true,
+       type: 'text',
+       title: 'Name',
+       placeholder: 'Your name',
+       value: 'Foo',
+       onChange: [Function: onChange] } },
+  { props: 
+     { value: '',
+       type: 'text',
+       title: 'Name',
+       placeholder: 'Your name',
+       onChange: [Function: onChange] } },
+  { props: 
+     { error: 'Error\'s message',
+       type: 'text',
+       title: 'Name',
+       placeholder: 'Your name',
+       value: 'Foo',
+       onChange: [Function: onChange] } },
+  { props: 
+     { modified: true,
+       value: 'Foo Foo',
+       type: 'text',
+       title: 'Name',
+       placeholder: 'Your name',
+       onChange: [Function: onChange] } },
+  { props: 
+     { required: true,
+       type: 'text',
+       title: 'Name',
+       placeholder: 'Your name',
+       value: 'Foo',
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/input-textarea InputTextarea
+[ { props: 
+     { type: 'textarea',
+       title: 'Name',
+       placeholder: 'Your text',
+       value: 'Foo foo foo',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'textarea',
+       title: 'Name',
+       placeholder: 'Your text',
+       value: '',
+       onChange: [Function: onChange] } },
+  { props: 
+     { type: 'textarea',
+       title: 'Name',
+       placeholder: 'Your text',
+       value: '',
+       error: 'Error\'s message',
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/label Label
+[ { children: 
+     { '$$typeof': Symbol(react.element),
+       type: 'p',
+       key: null,
+       ref: null,
+       props: [Object],
+       _owner: null,
+       _store: {} } },
+  { children: [ [Object], [Object] ] } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/life Life
+[ { props: { count: 0, fail: true, animated: true, style: [Object] } },
+  { props: { count: 3, fail: false, style: [Object] } },
+  { props: { count: 0, fail: true, style: [Object] } },
+  { props: { count: 3, fail: false, mode: 'small', style: [Object] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/link Link
+[ { props: { href: '#' }, children: [ 'link' ] },
+  { props: { href: '#', skinHover: true, style: [Object] },
+    children: [ 'link' ] } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/loader Loader
+[ { children: [] } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/notification Notification
+[ { props: { type: 'success', message: 'Congrats.' } },
+  { props: 
+     { type: 'error',
+       message: 'There are errors in your changes, please review them before submitting again.' } },
+  { props: 
+     { type: 'warning',
+       message: 'There are errors in your changes, please review them before submitting again.' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/picture-background PictureBackground
+[ { props: { src: [Object], style: [Object], view: 'contain' } },
+  { props: { src: [Object], style: [Object], view: 'cover' } },
+  { props: { src: [Object], style: [Object], view: 'cover' } },
+  { props: { src: 'https://placehold.it/150x150/b0b0b0', view: 'cover' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/picture Picture
+[ { props: { src: [Object] } },
+  { props: { src: [Object] } },
+  { props: { src: 'https://placehold.it/150x150/1d1d1d' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/promo-code PromoCode
+[ { props: 
+     { handlePromoCodeChange: [Function: handlePromoCodeChange],
+       onValidate: [Function: onValidate],
+       promoCode: '' } },
+  { props: 
+     { handlePromoCodeChange: [Function: handlePromoCodeChange],
+       promoCodeError: 'Code promo invalide',
+       onValidate: [Function: onValidate],
+       promoCode: '' } },
+  { props: 
+     { handlePromoCodeChange: [Function: handlePromoCodeChange],
+       promoCodeDescription: 'Code promo valide',
+       onValidate: [Function: onValidate],
+       promoCode: '' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/provider Provider
+[ { props: { translate: [Function: translate] },
+    children: 
+     { '$$typeof': Symbol(react.element),
+       type: 'div',
+       key: null,
+       ref: null,
+       props: {},
+       _owner: null,
+       _store: {} } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/range Range
+[ { props: { value: 0.5, multi: false, onChange: [Function: onChange] } },
+  { props: { value: [Array], multi: true, onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/resource-miniature ResourceMiniature
+[ { props: 
+     { type: 'pdf',
+       description: 'Chapitre 1. Diagramme du l\'hiérarchie du contenu.',
+       mediaUrl: '//static.coorpacademy.com/content/CoorpAcademy/content/cockpit-mooc-technique/raw/hierachie-contenu-1494494029567.pdf' } },
+  { props: 
+     { selected: true,
+       type: 'pdf',
+       description: 'Chapitre 1. Diagramme du l\'hiérarchie du contenu.',
+       mediaUrl: '//static.coorpacademy.com/content/CoorpAcademy/content/cockpit-mooc-technique/raw/hierachie-contenu-1494494029567.pdf' } },
+  { props: 
+     { selected: true,
+       type: 'video',
+       mimeType: 'application/vimeo',
+       videoId: '166479793',
+       description: 'De l’éco-conception à l’innovation responsable',
+       poster: '//static.coorpacademy.com/content/CoorpAcademy/content-partnerships-svp/cockpit-partner-svp/poster/poster-1480426784168.jpg' } },
+  { props: 
+     { type: 'video',
+       mimeType: 'application/vimeo',
+       videoId: '166479793',
+       description: 'De l’éco-conception à l’innovation responsable',
+       poster: '//static.coorpacademy.com/content/CoorpAcademy/content-partnerships-svp/cockpit-partner-svp/poster/poster-1480426784168.jpg' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/select Select
+[ { props: { options: [Array], onChange: [Function: onChange] } },
+  { props: 
+     { title: 'Propriétés de la marque :',
+       disabled: true,
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'filter',
+       title: 'Propriétés de la marque :',
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'invalid',
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { title: 'Propriétés de la marque',
+       modified: true,
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'mooc',
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { multiple: true,
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { multiple: true,
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'question',
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { title: 'Marque :',
+       required: true,
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { required: true,
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'sort',
+       title: 'Propriétés de la marque :',
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'template',
+       options: [Array],
+       onChange: [Function: onChange] } },
+  { props: 
+     { options: [Array],
+       theme: 'thematiques',
+       onChange: [Function: onChange] } },
+  { props: 
+     { theme: 'thematiques',
+       options: [Array],
+       onChange: [Function: onChange] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/slide Slide
+[ { props: 
+     { cover: 'url("http://www.lorempixel.com/200/200/nature/1")',
+       title: 'Explore the new courses',
+       surtitle: 'Welcome to Coorpacademy',
+       cta: [Object] } },
+  { props: 
+     { cover: 'url("http://www.lorempixel.com/200/200/nature/1")',
+       title: 'Explore the new courses',
+       surtitle: 'Welcome to Coorpacademy',
+       light: true,
+       alignment: 'left',
+       cta: [Object] } },
+  { props: 
+     { cover: 'url("http://www.lorempixel.com/200/200/nature/1")',
+       title: 'Explore the new courses',
+       surtitle: 'Welcome to Coorpacademy',
+       light: true,
+       cta: [Object] } },
+  { props: 
+     { cover: 'url("http://www.lorempixel.com/200/200/nature/1")',
+       title: 'Explore the new courses',
+       surtitle: 'Welcome to Coorpacademy',
+       light: false,
+       alignment: 'right',
+       cta: [Object] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/social-link SocialLink
+[ { props: 
+     { type: 'facebook',
+       link: 'http://www.facebook.com/pages/Elephant/146865738800649' } },
+  { props: { type: 'twitter', link: 'http://www.twitter.com/' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/spinner Spinner
+[ { props: {} } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/tab-content TabContent
+[ { props: { hideContentBackground: false, tabTitle: 'Tab title' } },
+  { props: { hideContentBackground: true, tabTitle: 'Tab title' } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/tab Tab
+[ { props: 
+     { onTabClick: [Function: onTabClick],
+       title: 'Title',
+       key: 'tab',
+       targetContent: 'tab',
+       links: [Array] } } ]
+/Users/mad/Projects/CoorpAcademy/components/packages/@coorpacademy-components/src/atom/title Title
+[ { children: 'foo' } ]
 /* eslint-disable max-len */
 
 import Button from '../src/atom/button';
@@ -32,97 +600,6 @@ import Spinner from '../src/atom/spinner';
 import TabContent from '../src/atom/tab-content';
 import Tab from '../src/atom/tab';
 import Title from '../src/atom/title';
-import Answer from '../src/molecule/answer';
-import BattleRequest from '../src/molecule/battle-request';
-import BrandCardCreate from '../src/molecule/brand-card-create';
-import BrandCard from '../src/molecule/brand-card';
-import BrandCreateForm from '../src/molecule/brand-create-form';
-import BrandDownloadBox from '../src/molecule/brand-download-box';
-import BrandFormGroup from '../src/molecule/brand-form-group';
-import BrandTabs from '../src/molecule/brand-tabs';
-import BrandUploadBox from '../src/molecule/brand-upload-box';
-import Breadcrumbs from '../src/molecule/breadcrumbs';
-import Card from '../src/molecule/card';
-import DisciplineCta from '../src/molecule/discipline-cta';
-import DisciplineHeader from '../src/molecule/discipline-header';
-import DisciplinePartners from '../src/molecule/discipline-partners';
-import DisciplineScope from '../src/molecule/discipline-scope';
-import Filters from '../src/molecule/filters';
-import MenuList from '../src/molecule/menu-list';
-import ModuleBubble from '../src/molecule/module-bubble';
-import ModuleCard from '../src/molecule/module-card';
-import News from '../src/molecule/news';
-import Pagination from '../src/molecule/pagination';
-import PaymentForm from '../src/molecule/payment-form';
-import Pdf from '../src/molecule/pdf';
-import ProductCard from '../src/molecule/product-card';
-import ProgressBar from '../src/molecule/progress-bar';
-import ScopeContent from '../src/molecule/scope-content';
-import ScopeTabs from '../src/molecule/scope-tabs';
-import Search from '../src/molecule/search';
-import SetupSection from '../src/molecule/setup-section';
-import SetupSections from '../src/molecule/setup-sections';
-import SetupSlide from '../src/molecule/setup-slide';
-import SetupSlider from '../src/molecule/setup-slider';
-import SsmenuList from '../src/molecule/ssmenu-list';
-import SubscriptionFreemium from '../src/molecule/subscription-freemium';
-import SubscriptionPremium from '../src/molecule/subscription-premium';
-import Table from '../src/molecule/table';
-import ThemeImage from '../src/molecule/theme-image';
-import TitledCheckbox from '../src/molecule/titled-checkbox';
-import Unsubscribe from '../src/molecule/unsubscribe';
-import VideoIframe from '../src/molecule/video-iframe';
-import VideoPlayer from '../src/molecule/video-player';
-import PopinHeader from '../src/molecule/app-player/popin/popin-header';
-import BattleRequestList from '../src/molecule/dashboard/battle-request-list';
-import CardsList from '../src/molecule/dashboard/cards-list';
-import NewsList from '../src/molecule/dashboard/news-list';
-import StartBattle from '../src/molecule/dashboard/start-battle';
-import ForumComment from '../src/molecule/forum/forum-comment';
-import ForumPost from '../src/molecule/forum/forum-post';
-import ForumThread from '../src/molecule/forum/forum-thread';
-import DropDown from '../src/molecule/questions/drop-down';
-import FreeText from '../src/molecule/questions/free-text';
-import QcmDrag from '../src/molecule/questions/qcm-drag';
-import QcmGraphic from '../src/molecule/questions/qcm-graphic';
-import Qcm from '../src/molecule/questions/qcm';
-import QuestionRange from '../src/molecule/questions/question-range';
-import Template from '../src/molecule/questions/template';
-import SlidesFooter from '../src/molecule/slides/slides-footer';
-import SlidesHeader from '../src/molecule/slides/slides-header';
-import SlidesPlayer from '../src/molecule/slides/slides-player';
-import Container from '../src/organism/accordion/container';
-import Part from '../src/organism/accordion/part';
-import Toggler from '../src/organism/accordion/toggler';
-import BrandForm from '../src/organism/brand-form';
-import BrandTable from '../src/organism/brand-table';
-import BrandUpload from '../src/organism/brand-upload';
-import CardsGrid from '../src/organism/cards-grid';
-import Cart from '../src/organism/cart';
-import Discussion from '../src/organism/discussion';
-import GridList from '../src/organism/grid-list';
-import Header from '../src/organism/header';
-import Hero from '../src/organism/hero';
-import MoocHeader from '../src/organism/mooc-header';
-import Popin from '../src/organism/popin';
-import ResourceBrowser from '../src/organism/resource-browser';
-import Settings from '../src/organism/settings';
-import SetupHeader from '../src/organism/setup-header';
-import Sidebar from '../src/organism/sidebar';
-import Slider from '../src/organism/slider';
-import ImageSlider from '../src/organism/mooc/image-slider';
-import Loading from '../src/template/app-player/loading';
-import Player from '../src/template/app-player/player';
-import PopinCorrection from '../src/template/app-player/popin-correction';
-import PopinEnd from '../src/template/app-player/popin-end';
-import BrandCreate from '../src/template/back-office/brand-create';
-import BrandList from '../src/template/back-office/brand-list';
-import BrandUpdate from '../src/template/back-office/brand-update';
-import Authors from '../src/template/common/authors';
-import CoorpHeader from '../src/template/common/coorp-header';
-import Dashboard from '../src/template/common/dashboard';
-import Discipline from '../src/template/common/discipline';
-import SearchPage from '../src/template/common/search-page';
 import ButtonFixtureA from '../src/atom/button/test/fixtures/a';
 import ButtonFixtureBlue from '../src/atom/button/test/fixtures/blue';
 import ButtonFixtureCentered from '../src/atom/button/test/fixtures/centered';
@@ -594,121 +1071,6 @@ export const components = {
     TabContent,
     Tab,
     Title
-  },
-  Molecule: {
-    Answer,
-    BattleRequest,
-    BrandCardCreate,
-    BrandCard,
-    BrandCreateForm,
-    BrandDownloadBox,
-    BrandFormGroup,
-    BrandTabs,
-    BrandUploadBox,
-    Breadcrumbs,
-    Card,
-    DisciplineCta,
-    DisciplineHeader,
-    DisciplinePartners,
-    DisciplineScope,
-    Filters,
-    MenuList,
-    ModuleBubble,
-    ModuleCard,
-    News,
-    Pagination,
-    PaymentForm,
-    Pdf,
-    ProductCard,
-    ProgressBar,
-    ScopeContent,
-    ScopeTabs,
-    Search,
-    SetupSection,
-    SetupSections,
-    SetupSlide,
-    SetupSlider,
-    SsmenuList,
-    SubscriptionFreemium,
-    SubscriptionPremium,
-    Table,
-    ThemeImage,
-    TitledCheckbox,
-    Unsubscribe,
-    VideoIframe,
-    VideoPlayer
-  },
-  MoleculeAppPlayerPopin: {
-    PopinHeader
-  },
-  MoleculeDashboard: {
-    BattleRequestList,
-    CardsList,
-    NewsList,
-    StartBattle
-  },
-  MoleculeForum: {
-    ForumComment,
-    ForumPost,
-    ForumThread
-  },
-  MoleculeQuestions: {
-    DropDown,
-    FreeText,
-    QcmDrag,
-    QcmGraphic,
-    Qcm,
-    QuestionRange,
-    Template
-  },
-  MoleculeSlides: {
-    SlidesFooter,
-    SlidesHeader,
-    SlidesPlayer
-  },
-  OrganismAccordion: {
-    Container,
-    Part,
-    Toggler
-  },
-  Organism: {
-    BrandForm,
-    BrandTable,
-    BrandUpload,
-    CardsGrid,
-    Cart,
-    Discussion,
-    GridList,
-    Header,
-    Hero,
-    MoocHeader,
-    Popin,
-    ResourceBrowser,
-    Settings,
-    SetupHeader,
-    Sidebar,
-    Slider
-  },
-  OrganismMooc: {
-    ImageSlider
-  },
-  TemplateAppPlayer: {
-    Loading,
-    Player,
-    PopinCorrection,
-    PopinEnd
-  },
-  TemplateBackOffice: {
-    BrandCreate,
-    BrandList,
-    BrandUpdate
-  },
-  TemplateCommon: {
-    Authors,
-    CoorpHeader,
-    Dashboard,
-    Discipline,
-    SearchPage
   }
 };
 export const fixtures = {
@@ -1424,351 +1786,16 @@ export const fixtures = {
 
 export const dependencies = {
   "Atom": {
-    "Range": {
-      "parents": {
-        "TemplateCommon": {
-          "SearchPage": true
-        },
-        "MoleculeQuestions": {
-          "QuestionRange": true
-        },
-        "Molecule": {
-          "Filters": true
-        }
-      },
-      "children": {}
-    },
-    "Select": {
-      "parents": {
-        "TemplateCommon": {
-          "SearchPage": true
-        },
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "MoocHeader": true,
-          "BrandForm": true
-        },
-        "MoleculeQuestions": {
-          "Template": true,
-          "DropDown": true
-        },
-        "Molecule": {
-          "SetupSlider": true,
-          "SetupSlide": true,
-          "Filters": true,
-          "BrandFormGroup": true,
-          "Answer": true
-        }
-      },
-      "children": {}
-    },
-    "Button": {
-      "parents": {
-        "TemplateCommon": {
-          "SearchPage": true,
-          "Discipline": true
-        },
-        "TemplateBackOffice": {
-          "BrandUpdate": true,
-          "BrandCreate": true
-        },
-        "Organism": {
-          "Popin": true,
-          "Discussion": true,
-          "BrandUpload": true,
-          "BrandForm": true
-        },
-        "MoleculeForum": {
-          "ForumThread": true,
-          "ForumPost": true,
-          "ForumComment": true
-        },
-        "Molecule": {
-          "ScopeContent": true,
-          "DisciplineScope": true,
-          "BrandDownloadBox": true,
-          "BrandCreateForm": true
-        }
-      },
-      "children": {}
-    },
-    "CatalogSection": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        },
-        "Molecule": {
-          "DisciplinePartners": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Picture": true
-        }
-      }
-    },
-    "Link": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true,
-          "Dashboard": true,
-          "Authors": true
-        },
-        "TemplateBackOffice": {
-          "BrandUpdate": true,
-          "BrandList": true,
-          "BrandCreate": true
-        },
-        "TemplateAppPlayer": {
-          "PopinEnd": true,
-          "PopinCorrection": true,
-          "Player": true
-        },
-        "Organism": {
-          "SetupHeader": true,
-          "Settings": true,
-          "ResourceBrowser": true,
-          "MoocHeader": true,
-          "Hero": true,
-          "Cart": true,
-          "BrandUpload": true,
-          "BrandTable": true,
-          "BrandForm": true
-        },
-        "MoleculeSlides": {
-          "SlidesHeader": true
-        },
-        "MoleculeDashboard": {
-          "StartBattle": true,
-          "NewsList": true
-        },
-        "MoleculeAppPlayerPopin": {
-          "PopinHeader": true
-        },
-        "Molecule": {
-          "Unsubscribe": true,
-          "Table": true,
-          "ScopeContent": true,
-          "Pdf": true,
-          "Pagination": true,
-          "News": true,
-          "DisciplineScope": true,
-          "DisciplinePartners": true,
-          "Breadcrumbs": true,
-          "BrandTabs": true,
-          "BrandCard": true,
-          "BrandCardCreate": true
-        }
-      },
-      "children": {}
-    },
-    "Picture": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        },
-        "TemplateBackOffice": {
-          "BrandUpdate": true,
-          "BrandList": true,
-          "BrandCreate": true
-        },
-        "Organism": {
-          "SetupHeader": true,
-          "Header": true,
-          "Discussion": true
-        },
-        "MoleculeForum": {
-          "ForumThread": true,
-          "ForumPost": true
-        },
-        "Molecule": {
-          "DisciplinePartners": true,
-          "BrandCard": true,
-          "Answer": true
-        },
-        "Atom": {
-          "CatalogSection": true
-        }
-      },
-      "children": {}
-    },
-    "SocialLink": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true,
-          "Authors": true
-        },
-        "Molecule": {
-          "DisciplinePartners": true
-        }
-      },
-      "children": {}
-    },
     "Cta": {
       "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        },
-        "OrganismMooc": {
-          "ImageSlider": true
-        },
-        "Organism": {
-          "Slider": true,
-          "MoocHeader": true
-        },
-        "MoleculeDashboard": {
-          "NewsList": true
-        },
-        "Molecule": {
-          "News": true
-        },
         "Atom": {
           "Slide": true
         }
       },
       "children": {}
     },
-    "ImageUpload": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "SetupSlider": true,
-          "SetupSlide": true,
-          "BrandFormGroup": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Loader": true
-        }
-      }
-    },
-    "InputSwitch": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "MoocHeader": true,
-          "BrandForm": true
-        },
-        "Molecule": {
-          "SetupSlider": true,
-          "SetupSlide": true,
-          "SetupSections": true,
-          "SetupSection": true,
-          "BrandFormGroup": true
-        }
-      },
-      "children": {}
-    },
-    "InputDoublestep": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        }
-      },
-      "children": {}
-    },
-    "InputReadonly": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true
-        }
-      },
-      "children": {}
-    },
-    "Notification": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true,
-          "BrandCreate": true
-        }
-      },
-      "children": {}
-    },
-    "InputColor": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true
-        }
-      },
-      "children": {}
-    },
-    "InputText": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true
-        }
-      },
-      "children": {}
-    },
-    "InputCheckbox": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        }
-      },
-      "children": {}
-    },
     "Loader": {
       "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "TemplateAppPlayer": {
-          "PopinCorrection": true,
-          "Loading": true
-        },
-        "Organism": {
-          "Discussion": true,
-          "CardsGrid": true,
-          "BrandUpload": true,
-          "BrandTable": true
-        },
-        "MoleculeDashboard": {
-          "NewsList": true,
-          "CardsList": true
-        },
-        "MoleculeAppPlayerPopin": {
-          "PopinHeader": true
-        },
-        "Molecule": {
-          "SetupSections": true,
-          "Card": true,
-          "BrandUploadBox": true
-        },
         "Atom": {
           "ImageUpload": true,
           "Clue": true
@@ -1776,85 +1803,28 @@ export const dependencies = {
       },
       "children": {}
     },
-    "Checkbox": {
+    "Picture": {
       "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandTable": true
-        },
-        "Molecule": {
-          "TitledCheckbox": true,
-          "Table": true
+        "Atom": {
+          "CatalogSection": true
         }
       },
       "children": {}
     },
-    "Life": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinEnd": true,
-          "Player": true
-        },
-        "MoleculeSlides": {
-          "SlidesHeader": true
-        }
-      },
+    "Button": {
       "children": {}
     },
-    "ResourceMiniature": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinCorrection": true
-        },
-        "Organism": {
-          "ResourceBrowser": true
-        }
-      },
-      "children": {}
-    },
-    "Slide": {
-      "parents": {
-        "OrganismMooc": {
-          "ImageSlider": true
-        },
-        "Organism": {
-          "Slider": true,
-          "MoocHeader": true
-        }
-      },
+    "CatalogSection": {
       "children": {
         "Atom": {
-          "Cta": true
+          "Picture": true
         }
       }
     },
-    "TabContent": {
-      "parents": {
-        "Organism": {
-          "Settings": true
-        }
-      },
-      "children": {}
-    },
-    "Tab": {
-      "parents": {
-        "Organism": {
-          "Settings": true
-        }
-      },
-      "children": {}
-    },
-    "PromoCode": {
-      "parents": {
-        "Organism": {
-          "Cart": true
-        }
-      },
-      "children": {}
-    },
     "CenteredText": {
+      "children": {}
+    },
+    "Checkbox": {
       "children": {}
     },
     "Clue": {
@@ -1864,1308 +1834,85 @@ export const dependencies = {
         }
       }
     },
+    "ImageUpload": {
+      "children": {
+        "Atom": {
+          "Loader": true
+        }
+      }
+    },
+    "InputCheckbox": {
+      "children": {}
+    },
+    "InputColor": {
+      "children": {}
+    },
+    "InputDoublestep": {
+      "children": {}
+    },
+    "InputReadonly": {
+      "children": {}
+    },
+    "InputSwitch": {
+      "children": {}
+    },
+    "InputText": {
+      "children": {}
+    },
     "InputTextarea": {
       "children": {}
     },
     "Label": {
       "children": {}
     },
+    "Life": {
+      "children": {}
+    },
+    "Link": {
+      "children": {}
+    },
+    "Notification": {
+      "children": {}
+    },
     "PictureBackground": {
+      "children": {}
+    },
+    "PromoCode": {
       "children": {}
     },
     "Provider": {
       "children": {}
     },
+    "Range": {
+      "children": {}
+    },
+    "ResourceMiniature": {
+      "children": {}
+    },
+    "Select": {
+      "children": {}
+    },
+    "Slide": {
+      "children": {
+        "Atom": {
+          "Cta": true
+        }
+      }
+    },
+    "SocialLink": {
+      "children": {}
+    },
     "Spinner": {
+      "children": {}
+    },
+    "TabContent": {
+      "children": {}
+    },
+    "Tab": {
       "children": {}
     },
     "Title": {
       "children": {}
-    }
-  },
-  "Molecule": {
-    "Card": {
-      "parents": {
-        "TemplateCommon": {
-          "SearchPage": true,
-          "Dashboard": true,
-          "Authors": true
-        },
-        "Organism": {
-          "CardsGrid": true
-        },
-        "MoleculeDashboard": {
-          "CardsList": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Loader": true
-        }
-      }
-    },
-    "Filters": {
-      "parents": {
-        "TemplateCommon": {
-          "SearchPage": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Range": true,
-          "Select": true
-        }
-      }
-    },
-    "DisciplineCta": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        }
-      },
-      "children": {}
-    },
-    "DisciplineHeader": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "VideoIframe": true
-        }
-      }
-    },
-    "DisciplinePartners": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "CatalogSection": true,
-          "Link": true,
-          "Picture": true,
-          "SocialLink": true
-        }
-      }
-    },
-    "DisciplineScope": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "ModuleBubble": true,
-          "ScopeContent": true,
-          "ScopeTabs": true
-        },
-        "Atom": {
-          "Link": true,
-          "Button": true
-        }
-      }
-    },
-    "ModuleBubble": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        },
-        "Molecule": {
-          "ScopeTabs": true,
-          "ModuleCard": true,
-          "DisciplineScope": true
-        }
-      },
-      "children": {}
-    },
-    "ScopeContent": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        },
-        "Molecule": {
-          "DisciplineScope": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true,
-          "Button": true
-        }
-      }
-    },
-    "ScopeTabs": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        },
-        "Molecule": {
-          "DisciplineScope": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "ModuleBubble": true
-        }
-      }
-    },
-    "VideoIframe": {
-      "parents": {
-        "TemplateCommon": {
-          "Discipline": true
-        },
-        "Molecule": {
-          "DisciplineHeader": true
-        }
-      },
-      "children": {}
-    },
-    "BattleRequest": {
-      "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        },
-        "MoleculeDashboard": {
-          "BattleRequestList": true
-        }
-      },
-      "children": {}
-    },
-    "News": {
-      "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        },
-        "MoleculeDashboard": {
-          "NewsList": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Cta": true,
-          "Link": true
-        }
-      }
-    },
-    "BrandFormGroup": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "InputSwitch": true,
-          "InputReadonly": true,
-          "ImageUpload": true,
-          "InputColor": true,
-          "Select": true,
-          "InputText": true
-        },
-        "Molecule": {
-          "SetupSection": true,
-          "SetupSections": true,
-          "SetupSlide": true,
-          "SetupSlider": true
-        }
-      }
-    },
-    "BrandTabs": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "Breadcrumbs": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "SetupSection": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "SetupSections": true,
-          "BrandFormGroup": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "InputSwitch": true
-        }
-      }
-    },
-    "SetupSections": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "InputSwitch": true,
-          "Loader": true
-        },
-        "Molecule": {
-          "SetupSection": true
-        }
-      }
-    },
-    "SetupSlide": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "SetupSlider": true,
-          "BrandFormGroup": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "ImageUpload": true,
-          "InputSwitch": true,
-          "Select": true
-        }
-      }
-    },
-    "SetupSlider": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandForm": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "ImageUpload": true,
-          "InputSwitch": true,
-          "Select": true
-        },
-        "Molecule": {
-          "SetupSlide": true
-        }
-      }
-    },
-    "BrandDownloadBox": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandUpload": true,
-          "BrandForm": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Button": true
-        }
-      }
-    },
-    "BrandUploadBox": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandUpload": true,
-          "BrandForm": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Loader": true
-        }
-      }
-    },
-    "ProgressBar": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandUpload": true
-        }
-      },
-      "children": {}
-    },
-    "Pagination": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandTable": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "Search": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandTable": true
-        }
-      },
-      "children": {}
-    },
-    "Table": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        },
-        "Organism": {
-          "BrandTable": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Checkbox": true,
-          "Link": true
-        }
-      }
-    },
-    "BrandCardCreate": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandList": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "BrandCard": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandList": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true,
-          "Picture": true
-        }
-      }
-    },
-    "BrandCreateForm": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandCreate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Button": true
-        }
-      }
-    },
-    "Pdf": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinCorrection": true
-        },
-        "Organism": {
-          "ResourceBrowser": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "SubscriptionFreemium": {
-      "parents": {
-        "Organism": {
-          "Settings": true
-        }
-      },
-      "children": {}
-    },
-    "SubscriptionPremium": {
-      "parents": {
-        "Organism": {
-          "Settings": true
-        }
-      },
-      "children": {}
-    },
-    "MenuList": {
-      "parents": {
-        "Organism": {
-          "Header": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "SsmenuList": true
-        }
-      }
-    },
-    "SsmenuList": {
-      "parents": {
-        "Organism": {
-          "Header": true
-        },
-        "Molecule": {
-          "MenuList": true
-        }
-      },
-      "children": {}
-    },
-    "PaymentForm": {
-      "parents": {
-        "Organism": {
-          "Cart": true
-        }
-      },
-      "children": {}
-    },
-    "ProductCard": {
-      "parents": {
-        "Organism": {
-          "Cart": true
-        }
-      },
-      "children": {}
-    },
-    "Answer": {
-      "children": {
-        "Atom": {
-          "Picture": true,
-          "Select": true
-        },
-        "MoleculeQuestions": {
-          "FreeText": true,
-          "DropDown": true,
-          "QcmDrag": true,
-          "QcmGraphic": true,
-          "Qcm": true,
-          "Template": true
-        }
-      }
-    },
-    "ModuleCard": {
-      "children": {
-        "Molecule": {
-          "ModuleBubble": true
-        }
-      }
-    },
-    "ThemeImage": {
-      "children": {}
-    },
-    "TitledCheckbox": {
-      "children": {
-        "Atom": {
-          "Checkbox": true
-        }
-      }
-    },
-    "Unsubscribe": {
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "VideoPlayer": {
-      "children": {}
-    }
-  },
-  "Organism": {
-    "CardsGrid": {
-      "parents": {
-        "TemplateCommon": {
-          "SearchPage": true,
-          "Authors": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "Card": true
-        },
-        "Atom": {
-          "Loader": true
-        }
-      }
-    },
-    "BrandForm": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "ImageUpload": true,
-          "InputSwitch": true,
-          "Select": true,
-          "Button": true,
-          "InputDoublestep": true,
-          "InputReadonly": true,
-          "InputColor": true,
-          "InputText": true,
-          "InputCheckbox": true,
-          "Link": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true,
-          "SetupSection": true,
-          "SetupSections": true,
-          "SetupSlide": true,
-          "SetupSlider": true,
-          "BrandDownloadBox": true,
-          "BrandUploadBox": true
-        }
-      }
-    },
-    "SetupHeader": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true,
-          "BrandList": true,
-          "BrandCreate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true,
-          "Picture": true
-        }
-      }
-    },
-    "BrandUpload": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Button": true,
-          "Link": true,
-          "Loader": true
-        },
-        "Molecule": {
-          "BrandDownloadBox": true,
-          "BrandUploadBox": true,
-          "ProgressBar": true
-        }
-      }
-    },
-    "BrandTable": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandUpdate": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Checkbox": true,
-          "Link": true,
-          "Loader": true
-        },
-        "Molecule": {
-          "Pagination": true,
-          "Search": true,
-          "Table": true
-        }
-      }
-    },
-    "GridList": {
-      "parents": {
-        "TemplateBackOffice": {
-          "BrandList": true
-        }
-      },
-      "children": {}
-    },
-    "ResourceBrowser": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinCorrection": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true,
-          "ResourceMiniature": true
-        },
-        "Molecule": {
-          "Pdf": true
-        }
-      }
-    },
-    "Cart": {
-      "children": {
-        "Atom": {
-          "Link": true,
-          "PromoCode": true
-        },
-        "Molecule": {
-          "PaymentForm": true,
-          "ProductCard": true
-        }
-      }
-    },
-    "Discussion": {
-      "children": {
-        "Atom": {
-          "Button": true,
-          "Picture": true,
-          "Loader": true
-        },
-        "MoleculeForum": {
-          "ForumComment": true,
-          "ForumPost": true,
-          "ForumThread": true
-        }
-      }
-    },
-    "Header": {
-      "children": {
-        "Atom": {
-          "Picture": true
-        },
-        "Molecule": {
-          "MenuList": true,
-          "SsmenuList": true
-        }
-      }
-    },
-    "Hero": {
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    },
-    "MoocHeader": {
-      "children": {
-        "Atom": {
-          "Cta": true,
-          "InputSwitch": true,
-          "Link": true,
-          "Select": true,
-          "Slide": true
-        },
-        "OrganismMooc": {
-          "ImageSlider": true
-        }
-      }
-    },
-    "Popin": {
-      "children": {
-        "Atom": {
-          "Button": true
-        }
-      }
-    },
-    "Settings": {
-      "children": {
-        "Atom": {
-          "Link": true,
-          "TabContent": true,
-          "Tab": true
-        },
-        "Molecule": {
-          "SubscriptionFreemium": true,
-          "SubscriptionPremium": true
-        }
-      }
-    },
-    "Sidebar": {
-      "children": {}
-    },
-    "Slider": {
-      "children": {
-        "Atom": {
-          "Cta": true,
-          "Slide": true
-        },
-        "MoleculeQuestions": {
-          "QcmDrag": true,
-          "QcmGraphic": true,
-          "Qcm": true
-        }
-      }
-    }
-  },
-  "MoleculeDashboard": {
-    "BattleRequestList": {
-      "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "BattleRequest": true
-        }
-      }
-    },
-    "CardsList": {
-      "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        }
-      },
-      "children": {
-        "Molecule": {
-          "Card": true
-        },
-        "Atom": {
-          "Loader": true
-        }
-      }
-    },
-    "NewsList": {
-      "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Cta": true,
-          "Link": true,
-          "Loader": true
-        },
-        "Molecule": {
-          "News": true
-        }
-      }
-    },
-    "StartBattle": {
-      "parents": {
-        "TemplateCommon": {
-          "Dashboard": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true
-        }
-      }
-    }
-  },
-  "MoleculeSlides": {
-    "SlidesHeader": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinEnd": true,
-          "Player": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Life": true,
-          "Link": true
-        }
-      }
-    },
-    "SlidesFooter": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "Player": true
-        },
-        "MoleculeSlides": {
-          "SlidesPlayer": true
-        }
-      },
-      "children": {}
-    },
-    "SlidesPlayer": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "Player": true
-        }
-      },
-      "children": {
-        "MoleculeSlides": {
-          "SlidesFooter": true
-        }
-      }
-    }
-  },
-  "MoleculeAppPlayerPopin": {
-    "PopinHeader": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinCorrection": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Link": true,
-          "Loader": true
-        }
-      }
-    }
-  },
-  "OrganismAccordion": {
-    "Container": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinCorrection": true
-        }
-      },
-      "children": {
-        "MoleculeQuestions": {
-          "Qcm": true
-        },
-        "OrganismAccordion": {
-          "Part": true
-        }
-      }
-    },
-    "Part": {
-      "parents": {
-        "TemplateAppPlayer": {
-          "PopinCorrection": true
-        },
-        "OrganismAccordion": {
-          "Container": true
-        }
-      },
-      "children": {
-        "MoleculeQuestions": {
-          "QcmDrag": true
-        }
-      }
-    },
-    "Toggler": {
-      "children": {
-        "MoleculeQuestions": {
-          "QcmDrag": true,
-          "QcmGraphic": true,
-          "Qcm": true
-        }
-      }
-    }
-  },
-  "MoleculeQuestions": {
-    "QcmDrag": {
-      "parents": {
-        "Organism": {
-          "Slider": true
-        },
-        "OrganismAccordion": {
-          "Toggler": true,
-          "Part": true
-        },
-        "Molecule": {
-          "Answer": true
-        }
-      },
-      "children": {}
-    },
-    "QcmGraphic": {
-      "parents": {
-        "Organism": {
-          "Slider": true
-        },
-        "OrganismAccordion": {
-          "Toggler": true
-        },
-        "Molecule": {
-          "Answer": true
-        }
-      },
-      "children": {}
-    },
-    "Qcm": {
-      "parents": {
-        "Organism": {
-          "Slider": true
-        },
-        "OrganismAccordion": {
-          "Toggler": true,
-          "Container": true
-        },
-        "Molecule": {
-          "Answer": true
-        }
-      },
-      "children": {}
-    },
-    "DropDown": {
-      "parents": {
-        "MoleculeQuestions": {
-          "Template": true
-        },
-        "Molecule": {
-          "Answer": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Select": true
-        }
-      }
-    },
-    "FreeText": {
-      "parents": {
-        "MoleculeQuestions": {
-          "Template": true
-        },
-        "Molecule": {
-          "Answer": true
-        }
-      },
-      "children": {}
-    },
-    "Template": {
-      "parents": {
-        "Molecule": {
-          "Answer": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Select": true
-        },
-        "MoleculeQuestions": {
-          "DropDown": true,
-          "FreeText": true
-        }
-      }
-    },
-    "QuestionRange": {
-      "children": {
-        "Atom": {
-          "Range": true
-        }
-      }
-    }
-  },
-  "OrganismMooc": {
-    "ImageSlider": {
-      "parents": {
-        "Organism": {
-          "MoocHeader": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Cta": true,
-          "Slide": true
-        }
-      }
-    }
-  },
-  "MoleculeForum": {
-    "ForumComment": {
-      "parents": {
-        "Organism": {
-          "Discussion": true
-        },
-        "MoleculeForum": {
-          "ForumThread": true,
-          "ForumPost": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Button": true
-        }
-      }
-    },
-    "ForumPost": {
-      "parents": {
-        "Organism": {
-          "Discussion": true
-        },
-        "MoleculeForum": {
-          "ForumThread": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Button": true,
-          "Picture": true
-        },
-        "MoleculeForum": {
-          "ForumComment": true
-        }
-      }
-    },
-    "ForumThread": {
-      "parents": {
-        "Organism": {
-          "Discussion": true
-        },
-        "MoleculeForum": {
-          "ForumThread": true
-        }
-      },
-      "children": {
-        "Atom": {
-          "Button": true,
-          "Picture": true
-        },
-        "MoleculeForum": {
-          "ForumComment": true,
-          "ForumPost": true,
-          "ForumThread": true
-        }
-      }
-    }
-  },
-  "TemplateAppPlayer": {
-    "Loading": {
-      "children": {
-        "Atom": {
-          "Loader": true
-        }
-      }
-    },
-    "Player": {
-      "children": {
-        "Atom": {
-          "Life": true,
-          "Link": true
-        },
-        "MoleculeSlides": {
-          "SlidesFooter": true,
-          "SlidesHeader": true,
-          "SlidesPlayer": true
-        }
-      }
-    },
-    "PopinCorrection": {
-      "children": {
-        "Atom": {
-          "Link": true,
-          "Loader": true,
-          "ResourceMiniature": true
-        },
-        "MoleculeAppPlayerPopin": {
-          "PopinHeader": true
-        },
-        "OrganismAccordion": {
-          "Container": true,
-          "Part": true
-        },
-        "Molecule": {
-          "Pdf": true
-        },
-        "Organism": {
-          "ResourceBrowser": true
-        }
-      }
-    },
-    "PopinEnd": {
-      "children": {
-        "Atom": {
-          "Life": true,
-          "Link": true
-        },
-        "MoleculeSlides": {
-          "SlidesHeader": true
-        }
-      }
-    }
-  },
-  "TemplateBackOffice": {
-    "BrandCreate": {
-      "children": {
-        "Atom": {
-          "Button": true,
-          "Link": true,
-          "Picture": true,
-          "Notification": true
-        },
-        "Molecule": {
-          "BrandCreateForm": true
-        },
-        "Organism": {
-          "SetupHeader": true
-        }
-      }
-    },
-    "BrandList": {
-      "children": {
-        "Atom": {
-          "Link": true,
-          "Picture": true
-        },
-        "Molecule": {
-          "BrandCardCreate": true,
-          "BrandCard": true
-        },
-        "Organism": {
-          "GridList": true,
-          "SetupHeader": true
-        }
-      }
-    },
-    "BrandUpdate": {
-      "children": {
-        "Atom": {
-          "Button": true,
-          "ImageUpload": true,
-          "InputSwitch": true,
-          "Link": true,
-          "Picture": true,
-          "Select": true,
-          "InputDoublestep": true,
-          "InputReadonly": true,
-          "Notification": true,
-          "InputColor": true,
-          "InputText": true,
-          "InputCheckbox": true,
-          "Loader": true,
-          "Checkbox": true
-        },
-        "Molecule": {
-          "BrandFormGroup": true,
-          "BrandTabs": true,
-          "Breadcrumbs": true,
-          "SetupSection": true,
-          "SetupSections": true,
-          "SetupSlide": true,
-          "SetupSlider": true,
-          "BrandDownloadBox": true,
-          "BrandUploadBox": true,
-          "ProgressBar": true,
-          "Pagination": true,
-          "Search": true,
-          "Table": true
-        },
-        "Organism": {
-          "BrandForm": true,
-          "SetupHeader": true,
-          "BrandUpload": true,
-          "BrandTable": true
-        }
-      }
-    }
-  },
-  "TemplateCommon": {
-    "Authors": {
-      "children": {
-        "Atom": {
-          "Link": true,
-          "SocialLink": true
-        },
-        "Molecule": {
-          "Card": true
-        },
-        "Organism": {
-          "CardsGrid": true
-        }
-      }
-    },
-    "CoorpHeader": {
-      "children": {}
-    },
-    "Dashboard": {
-      "children": {
-        "Atom": {
-          "Cta": true,
-          "Link": true
-        },
-        "Molecule": {
-          "BattleRequest": true,
-          "Card": true,
-          "News": true
-        },
-        "MoleculeDashboard": {
-          "BattleRequestList": true,
-          "CardsList": true,
-          "NewsList": true,
-          "StartBattle": true
-        }
-      }
-    },
-    "Discipline": {
-      "children": {
-        "Atom": {
-          "CatalogSection": true,
-          "Link": true,
-          "Picture": true,
-          "SocialLink": true,
-          "Button": true
-        },
-        "Molecule": {
-          "DisciplineCta": true,
-          "DisciplineHeader": true,
-          "DisciplinePartners": true,
-          "DisciplineScope": true,
-          "ModuleBubble": true,
-          "ScopeContent": true,
-          "ScopeTabs": true,
-          "VideoIframe": true
-        }
-      }
-    },
-    "SearchPage": {
-      "children": {
-        "Atom": {
-          "Range": true,
-          "Select": true,
-          "Button": true
-        },
-        "Molecule": {
-          "Card": true,
-          "Filters": true
-        },
-        "Organism": {
-          "CardsGrid": true
-        }
-      }
     }
   }
 };

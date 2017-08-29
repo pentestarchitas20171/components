@@ -20,6 +20,7 @@ import components from './list-components';
 import fixtures from './list-fixtures';
 
 hook();
+console.log(components);
 
 const mapObject = mapValues.convert({cap: false});
 
@@ -60,12 +61,16 @@ const getChildren = Component => ({props, children}) => {
 export default pipe(
   mapObject((folder, folderName) =>
     mapObject((componentPath, componentName) => {
+      console.log(componentPath, componentName);
+
       const Component = require(componentPath).default; // eslint-disable-line import/no-dynamic-require
       const componentFixtures = pipe(
         get([folderName, componentName]),
         values,
         map(pipe(require, get('default')))
       )(fixtures);
+
+      console.log(componentFixtures);
 
       return {
         children: reduce(
